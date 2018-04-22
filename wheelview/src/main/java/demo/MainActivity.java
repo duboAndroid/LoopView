@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wx.wheelview.demo;
+package demo;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -23,6 +23,7 @@ import android.view.View;
 import com.wx.wheelview.adapter.ArrayWheelAdapter;
 import com.wx.wheelview.adapter.SimpleWheelAdapter;
 import com.wx.wheelview.common.WheelData;
+import com.wx.wheelview.demo.R;
 import com.wx.wheelview.util.WheelUtils;
 import com.wx.wheelview.widget.WheelView;
 import com.wx.wheelview.widget.WheelViewDialog;
@@ -163,7 +164,7 @@ public class MainActivity extends Activity {
     }
 
     private List<String> createMainDatas() {
-        String[] strings = {"黑龙江", "吉林", "辽宁"};
+        String[] strings = {"黑龙江", "吉林", "辽宁",""};
         return Arrays.asList(strings);
     }
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.wx.wheelview.demo;
+package demo;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -22,6 +22,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.wx.wheelview.adapter.BaseWheelAdapter;
+import com.wx.wheelview.demo.R;
 
 /**
  * Demo
